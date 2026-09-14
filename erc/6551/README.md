@@ -88,7 +88,7 @@ git clone https://github.com/base-org/guides.git
 **Change into the directory**
 
 ```bash
-cd base-guides/6551
+cd guides/erc/6551
 ```
 
 **Initiate a node project and install dependencies:**
@@ -312,7 +312,7 @@ Deployment data saved to: deploymentData.json
 This script will mint an NFT and assign its ownership to the `WALLET2_ADDR` account
 
 ```bash
-npx hardhat run scripts/02_mint_nft.js --network --network base-goerli
+npx hardhat run scripts/02_mint_nft.js --network base-goerli
 ```
 
 ### Sample output:
